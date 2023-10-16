@@ -14,7 +14,7 @@ account_id = 'imperial'
 # Generar 4000 datos aleatorios sobre métricas para cada publicación
 for i in range(4000):
     post_id = f'post_{i}'
-    likes = random.randint(1, 1000)
+    likes = random.randint(1, 1000)  
     comments = random.randint(1, 500)
     shares = random.randint(1, 200)
 
