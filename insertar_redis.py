@@ -1,3 +1,4 @@
+
 import random
 import redis
 from datetime import datetime, timedelta
@@ -34,4 +35,5 @@ for i in range(4000):
     redis_client.hmset(f'{account_id}:{post_id}', post_metrics)
 
 print("Métricas han sido exportadas a Redis.")
+
 
